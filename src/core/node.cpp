@@ -7,7 +7,6 @@ using namespace common;
 
 Node::Node() {
   std::cout << "Hi!" << std::endl;
-  
 }
 
 Node::~Node() {
@@ -38,3 +37,4 @@ void Node::SetName(String name) {
 nodesys::common::String Node::GetName() {
   return this->name_;
 }
+
